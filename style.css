@@ -1,17 +1,51 @@
+body {
+    background-color: #87d8ec;
+}
+
 img {
-    width: 100%;
+    width: 185px;
+    height: 185px;
 }
 
 div.imageWrap {
     width: 200px;
 }
 
-div.tile {
-    background-color: #87d8ec;
-    width: 250px;
-    padding: 10px;
+.flexbox-container { /*this is the large box that holds the individual boxes*/
+    display: flex;   
+    justify-content: center;
+    flex-wrap: wrap;
+}
 
+.flexbox-item { /*these are the properties of each individual box*/
+    width: 250px;
+    height:250px;
+    min-width: 250px;
+    min-height: 250px;
+    border: 1px solid grey; /*remove before submission*/
+    background-color: #87d8ec;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    flex-direction: column;
+}
+
+.flexbox-item-alek {
+        
+}
+
+.flexbox-item-ammon {
+
+}
+
+.flexbox-item-bin {
+
+}
+
+.flexbox-item-eden {
+
+}
+
+.flexbox-item-ray {
+
 }
