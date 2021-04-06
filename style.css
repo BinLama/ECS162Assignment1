@@ -24,8 +24,8 @@ div.imageWrap {
     min-height: 250px;
     /* border: 1px solid grey; remove before submission */
     background-color: #87d8ec;
-    display: flex;
-    flex-basis: 30%;
+    flex:1 0 30%;
+    text-align: center;
     justify-content: center;
     align-items: center;
     flex-direction: column;
