@@ -3,46 +3,43 @@ body {
 }
 
 img {
-    width: 185px;
-    height: 185px;
+    width: 100%;
+    height: 100%;
+    /* width: 185px; */
 }
 
-div.imageWrap {
+img.imageWrap {
     width: 200px;
+    height: 200px;
 }
 
-.flexbox-container { /*this is the large box that holds the individual boxes*/
-    display: flex;   
+.flexbox-container {
+    /*this is the large box that holds the individual boxes*/
+    display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin-left: 300px;
-    margin-right: 300px;
-
+    /* margin-left: 300px;
+    margin-right: 300px; */
 }
 
-.flexbox-item { /*these are the properties of each individual box*/
+.flexbox-item {
+    /*these are the properties of each individual box*/
     background-color: #00b627;
-    flex:1 0 30%;
+    flex: 1 0 30%;
     text-align: center;
-    
 }
 
 .flexbox-item-alek {
-        
 }
 
 .flexbox-item-ammon {
-
 }
 
 .flexbox-item-bin {
-
 }
 
 .flexbox-item-eden {
-
 }
 
 .flexbox-item-ray {
-
 }
