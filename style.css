@@ -1,17 +1,44 @@
+body {
+    background-color: #87d8ec;
+}
+
 img {
     width: 100%;
+    height: 100%;
 }
 
-div.imageWrap {
-    width: 200px;
+h1 {
+    padding: 50px;
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
 }
 
-div.tile {
-    background-color: #87d8ec;
-    width: 250px;
-    padding: 10px;
+.imageWrap {
+    max-width: 200px;
+    max-height: 200px;
+    min-width: 100px;
+    padding: 0px 20px;
+}
 
+div.outer-body {
+    /* padding: 0px 50px; */
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+}
+
+div.inner-body {
+    padding: 20px;
     align-items: center;
 }
+
+p {
+    display: flex;
+    justify-content: center;
+}
+
+/* .inner-body-1 {
+    flex-wrap: nowrap;
+} */
