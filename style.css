@@ -1,10 +1,13 @@
 body {
-    background-color: #87d8ec;
+    background-image: linear-gradient(to right, green, yellow);
 }
 
 img {
     width: 100%;
     height: 100%;
+    border-radius: 15%;
+    border-style: dashed;
+    border-width: 5px;
 }
 
 h1 {
@@ -18,11 +21,10 @@ h1 {
     max-width: 200px;
     max-height: 200px;
     min-width: 100px;
-    padding: 0px 20px;
+    margin: 0px 20px;
 }
 
 div.outer-body {
-    /* padding: 0px 50px; */
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -39,6 +41,10 @@ p {
     justify-content: center;
 }
 
-/* .inner-body-1 {
-    flex-wrap: nowrap;
-} */
+.Ray {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Bin {
+    font-family: "Metal Mania", cursive;
+}
